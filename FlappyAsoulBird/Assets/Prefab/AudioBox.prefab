@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3604124509119493331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4739340018578396370}
+  - component: {fileID: 1503275482091844978}
+  m_Layer: 0
+  m_Name: AudioBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4739340018578396370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604124509119493331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.33285278, y: 4.9688516, z: 11.563694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503275482091844978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604124509119493331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e73f4a469d7cb419e951f74f72893b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: fb39d36ce138cd54caa379daa6725efe, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 0.496
+    playOnAwake: 1
+    loop: 1
+  - clip: {fileID: 8300000, guid: 595d56edfdd269646a5d8079d7e98239, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 72f67b976d36b8a4c9f7d9a06c00cff6, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 4d067e62ddda4d642b55cfc2393628d2, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 855b3c3b75ccddb4ca9d86f0c7a3ad4e, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: f03d12a2a45256240bd858e40240aa89, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 4dbd13d58cc53534da7bac683813dcef, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 44200fad17e4c6c4696e7cc60121851e, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 626c1b636771b0a438fa7eca866fa6cf, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: d2835ca3904e1994a87b7a26511f267c, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: d4847cd22d5b5d045a29829141a908da, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 5805eaebf5e119d458832c4b1b88b628, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: b440c47df1d25cc4d9b139b070399f42, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: fbb91a7492563dc4ebea9d4afd1c9a83, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 76929532230e7e244acd87165c696ed5, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 44ed39270eb9d53458bcf852822dab59, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 503606a25831d954d824d256c2c3a14b, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 97d54a484fe0509409f76df14d4b1466, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: ce67e042972ae10409fc0cdce70261f8, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: de9da7f05f1016f499d0f848b5d5a01e, type: 3}
+    outputGroup: {fileID: 0}
+    volume: 1
+    playOnAwake: 0
+    loop: 0
